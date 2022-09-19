@@ -6,23 +6,15 @@
             content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>MusicBox</title>
-        <!-- <link href="./assets/css/site.min.css" rel="stylesheet">
-        <link href="./assets/css/oneui.css" rel="stylesheet"> -->
     </head>
     <div class="site-header" style="height:100%;box-sizing: border-box;">
         <nav class="nav_jsxs">
         </nav>
         <div class="box-text">
-            <h1> MusicBox</h1>
-            <h1>Discover New Music Anytime</h1>
-            <p>Welcom<br>
-            </p>
-            <p>Get songs and albums selected according to the artist and music type you are listening to.</p>
-
+            <h1>攻玉工作室官方网站</h1>
             <h1 style="font-size:30px;font-weight: 600;color:aqua;cursor: pointer;"
-                onclick="window.location.href = '/music'" target="_blank">Click to enter the Music Box</h1>
+                onclick="window.location.href = '/music'" target="_blank">点击进入</h1>
             <div id="tagcloud">
-
                 <a title=" " target="_blank"
                     style="left: 314.159px; top: 168.514px; font-size: 13px; opacity: 0.212714; z-index: 0;">Tiktok
                     hot</a><a title="  " target="_blank"
