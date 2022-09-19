@@ -58,7 +58,7 @@ function update() {
     var c = 0;
     var ab= sineCosine(a, b, c);
     var sa=ab[0];var ca=ab[1];var sb=ab[2];var cb=ab[3];var sc=ab[4];var cc=ab[5]
-    console.log(sa,ca,sb,cb,sc,cc)
+    // console.log(sa,ca,sb,cb,sc,cc)
     for (var j = 0; j < mcList.length; j++) {
         var rx1 = mcList[j].cx;
         var ry1 = mcList[j].cy * 1 + mcList[j].cz * (-sa);
