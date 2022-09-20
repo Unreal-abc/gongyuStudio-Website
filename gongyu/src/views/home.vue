@@ -13,7 +13,7 @@
             <h1>攻玉工作室官方网站</h1>
             <h1 style="font-size:30px;font-weight: 600;color:aqua;cursor: pointer;"
                 onclick="window.location.href = '/music'" target="_blank">点击进入</h1>
-            <RotationEffectsComponent :Data="[1,2,3,4,5,6,7,8]" :CycleTimes="5" ></RotationEffectsComponent>
+            <RotationEffectsComponent :Data="['方琦','琦琦']" :CycleTimes="50" ></RotationEffectsComponent>
         </div>
     </div>
 </template>

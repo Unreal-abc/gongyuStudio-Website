@@ -2,7 +2,7 @@
     <div id="tagcloud">
         <a title=" " target="_blank"
             style="left: 314.159px; top: 168.514px; font-size: 13px; opacity: 0.212714; z-index: 0;"
-            v-for="item of this.Array_" v-bind:key="item">{{item}}方琦</a>
+            v-for="item of this.Array_" v-bind:key="item">{{item}}</a>
 
     </div>
 </template>
@@ -10,25 +10,26 @@
 export default {
     data() {
         // eslint-disable-next-line
-        Array_:[]
+        return {
+            Array_: []
+        }
     },
     name: 'RotationEffectsComponent',
     props: {
         Data: Array,
-        CycleTimes: String,
+        CycleTimes: Number,
     },
     mounted() {
-        this.$nextTick(function () {
+        this.updata_()
+    },
+    methods: {
+        updata_: function () {
             for (let i = 0; i < Number(this.CycleTimes); i++) {
-                console.log("aaa",i);
-                this.Data.forEach(function(value){
-                    this.Array_.push(value);
-                    console.log(value);
-                })
+                for(let j = 0; j <this.Data.length ; j++){
+                    this.Array_.push(this.Data[j]);
+                }
             }
-
-        })
-
+        }
     }
 }
 import '../assets/css/oneui.css'
