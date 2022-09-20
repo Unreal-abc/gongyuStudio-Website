@@ -33,7 +33,7 @@ export default {
     }
 }
 import '../assets/css/oneui.css'
-import '../assets/js/a.js'
+import '../assets/js/RotationEffectsComponent.js'
 </script>
 <style scoped>
 #tagcloud {

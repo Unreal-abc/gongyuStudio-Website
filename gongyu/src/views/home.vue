@@ -13,7 +13,7 @@
             <h1>攻玉工作室官方网站</h1>
             <h1 style="font-size:30px;font-weight: 600;color:aqua;cursor: pointer;"
                 onclick="window.location.href = '/music'" target="_blank">点击进入</h1>
-            <RotationEffectsComponent :Data="['方琦','琦琦']" :CycleTimes="50" ></RotationEffectsComponent>
+            <RotationEffectsComponent :Data="['666','琦琦']" :CycleTimes="50" ></RotationEffectsComponent>
         </div>
     </div>
 </template>
@@ -30,6 +30,5 @@ export default {
     }
 }
 import '../assets/css/oneui.css'
-// import '../assets/css/site.min.css'
 import RotationEffectsComponent from "../components/RotationEffectsComponent.vue"
 </script>

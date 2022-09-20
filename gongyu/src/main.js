@@ -1,5 +1,8 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-// import home from "./views/home.vue";
 import './assets/css/style.css';
-createApp(App).mount("#app");
+import router from './router/index.js'
+var Vue=createApp(App).use(router).mount("#app");
+// 关闭生产提示
+Vue.config.productionTip = false
+

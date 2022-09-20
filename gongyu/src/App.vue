@@ -1,20 +1,16 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <Home/>
 </template>
-
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import Home from './views/home.vue'
 
 export default {
   name: 'App',
   components: {
     Home
-}
+  }
 }
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
